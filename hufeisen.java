@@ -3,7 +3,7 @@ import javax.swing.*;
 public class hufeisen {
 
 	public static void main(String[] args) {
-		JOptionPane.showMessageDialog(null, "Wie willst du bezahlen? \nEntweder für alle 24 Nägel zusammen 2 Silbermark \noder für den ersten Nagel 1 Pfennig, für den zweiten Nagel 2 Pfennig, für den dritten Nagel 4 Pfennig und so fort?", "Hufeisenschmied Checkout", JOptionPane.PLAIN_MESSAGE);
+		JOptionPane.showMessageDialog(null, "Bezahlvorgang", "Hufeisenschmied Checkout", JOptionPane.PLAIN_MESSAGE);
 
 		int price = 0;
 		int iC = 1;
