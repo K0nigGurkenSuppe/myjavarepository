@@ -10,7 +10,7 @@ public class hufeisen {
 		for(iC = 1; iC <= 24; iC++) {
 
 			price = iC*iC -1;
-            if(price == 0) { price = 1; };
+            if(price == 0) { price = 1; };if(price == 8) { price = 7; };
 			System.out.println("Der " + iC + " Nagel kostet " + price);
 
 		}
